@@ -5,7 +5,7 @@ import streamlit as st
 car_data = pd.read_csv(
     r'C:\Users\santi\sprint_7\project\vehicles_us.csv')  # leer los datos
 
-st.header('Prueba de encabezado')
+st.header('Bienvenido a la primera pagina web de Santiago')
 
 hist_button = st.button('Construir histograma')  # crear un botón
 
